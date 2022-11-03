@@ -59,8 +59,8 @@ body {
 /* Header */
 
 .top-header {
-  padding-top: 24px;
-  padding-bottom: 25px;
+  /* padding-top: 24px;
+  padding-bottom: 25px; */
   background-color: var(--accent-color3);
   border-bottom: 1px solid #ececec;
 }
@@ -106,7 +106,7 @@ body {
   color: var(--accent-color);
 }
 
-site-nav-link.current::after {
+.site-nav-link.current::after {
   content: "";
   position: absolute;
   display: block;
@@ -447,7 +447,7 @@ site-nav-link.current::after {
   align-items: center;
   border: 1px solid var(--icon-fill);
   border-radius: 4px;
-  transition: 250ms border var(--transition);
+  transition: border 250ms var(--transition);
 }
 
 .clients-link:hover,
@@ -725,7 +725,7 @@ site-nav-link.current::after {
 .portfolio-project-link {
   display: block;
   text-decoration: none;
-  transition: 250ms box-shadow var(--transition);
+  transition: box-shadow 250ms var(--transition);
 }
 
 .portfolio-project-link:hover,
